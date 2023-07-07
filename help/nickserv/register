@@ -1,0 +1,3 @@
+Command:     register
+Syntax:      REGISTER [password]
+Description: register your nickname with our Nickname Services.

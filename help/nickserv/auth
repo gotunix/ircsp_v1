@@ -1,0 +1,3 @@
+Command:     auth
+Syntax:      AUTH [nickname] [password]
+Description: Authorize yourself with nickserv.

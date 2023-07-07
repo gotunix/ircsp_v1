@@ -1,0 +1,4 @@
+Command:     Deop
+Syntax:      DEOP [#channel] [nickname]
+Description: Allows IRC operators to deop a user/him or herself in a
+             channel.

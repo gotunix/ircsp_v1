@@ -1,0 +1,3 @@
+Command:     Part
+Syntax:      PART [servicebot] [#channel]
+Description: Make a service bot leave a channel.

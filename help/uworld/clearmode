@@ -1,0 +1,6 @@
+Command:     Clearmode
+Syntax:      CLEARMODE [#channel]
+Description: Allows irc operators to clear all modes (execpt for +b and
+             +o) from a channel with out having to be oped or even
+             in that channel.
+

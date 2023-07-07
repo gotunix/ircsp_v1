@@ -1,0 +1,3 @@
+Command:     Listusers
+Syntax:      LISTUSERS
+Description: List of users on the network. (not recommended)

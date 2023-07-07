@@ -1,0 +1,3 @@
+Command:     Listadmin
+Syntax:      LISTADMIN
+Description: List of admins and if they are authorized or not.

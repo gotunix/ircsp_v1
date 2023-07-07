@@ -1,0 +1,124 @@
+This file contains any messages produced by compilers while
+running configure, to aid debugging if configure makes a mistake.
+
+configure:529: checking for gcc
+configure:642: checking whether the C compiler (gcc  ) works
+configure:658: gcc -o conftest    conftest.c  1>&5
+configure:684: checking whether the C compiler (gcc  ) is a cross-compiler
+configure:689: checking whether we are using GNU C
+configure:698: gcc -E conftest.c
+configure:717: checking whether gcc accepts -g
+configure:751: checking how to run the C preprocessor
+configure:772: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:831: checking for ANSI C header files
+configure:844: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:911: gcc -o conftest -g -O2   conftest.c  1>&5
+configure:935: checking for sys/wait.h that is POSIX.1 compatible
+configure:956: gcc -c -g -O2  conftest.c 1>&5
+configure:980: checking for sys/time.h
+configure:990: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:980: checking for unistd.h
+configure:990: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1020: checking for math.h
+configure:1030: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1020: checking for stdio.h
+configure:1030: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1020: checking for stdlib.h
+configure:1030: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1020: checking for stdarg.h
+configure:1030: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1060: checking for string.h
+configure:1070: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1060: checking for signal.h
+configure:1070: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1060: checking for sys/types.h
+configure:1070: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1100: checking for sys/socket.h
+configure:1110: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1100: checking for sys/time.h
+configure:1100: checking for sys/wait.h
+configure:1140: checking for netinet/in.h
+configure:1150: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1140: checking for arpa/inet.h
+configure:1150: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1140: checking for errno.h
+configure:1150: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1180: checking for netdb.h
+configure:1190: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1180: checking for ctype.h
+configure:1190: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1218: checking for working const
+configure:1272: gcc -c -g -O2  conftest.c 1>&5
+configure:1293: checking whether time.h and sys/time.h may both be included
+configure:1307: gcc -c -g -O2  conftest.c 1>&5
+configure:1331: checking for select
+configure:1359: gcc -o conftest -g -O2   conftest.c  1>&5
+configure:1386: checking for socket
+configure:1414: gcc -o conftest -g -O2   conftest.c  1>&5
+configure:1441: checking for getcwd
+configure:1469: gcc -o conftest -g -O2   conftest.c  1>&5
+configure:1496: checking for mkdir
+configure:1524: gcc -o conftest -g -O2   conftest.c  1>&5
+configure:1551: checking for snprintf
+configure:1579: gcc -o conftest -g -O2   conftest.c  1>&5
+configure:1606: checking for strcasecmp
+configure:1634: gcc -o conftest -g -O2   conftest.c  1>&5
+configure:1661: checking for crypt
+configure:1689: gcc -o conftest -g -O2   conftest.c  1>&5
+/tmp/ccDRByAm.o: In function `main':
+/home/justin/code/irc-sp/configure:1683: undefined reference to `crypt'
+collect2: ld returned 1 exit status
+configure: failed program was:
+#line 1666 "configure"
+#include "confdefs.h"
+/* System header to define __stub macros and hopefully few prototypes,
+    which can conflict with char crypt(); below.  */
+#include <assert.h>
+/* Override any gcc2 internal prototype to avoid an error.  */
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char crypt();
+
+int main() {
+
+/* The GNU C library defines this for functions which it implements
+    to always fail with ENOSYS.  Some functions are actually named
+    something starting with __ and the normal name is an alias.  */
+#if defined (__stub_crypt) || defined (__stub___crypt)
+choke me
+#else
+crypt();
+#endif
+
+; return 0; }
+configure:1716: checking for socket
+configure:1770: checking for lots_of_cute_chicks in -lBedroom
+configure:1789: gcc -o conftest -g -O2   conftest.c -lBedroom   1>&5
+/usr/i386-slackware-linux/bin/ld: cannot open -lBedroom: No such file or directory
+collect2: ld returned 1 exit status
+configure: failed program was:
+#line 1778 "configure"
+#include "confdefs.h"
+/* Override any gcc2 internal prototype to avoid an error.  */
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char lots_of_cute_chicks();
+
+int main() {
+lots_of_cute_chicks()
+; return 0; }
+configure:1817: checking for lots_of_hot_chicks in -lBedroom
+configure:1836: gcc -o conftest -g -O2   conftest.c -lBedroom   1>&5
+/usr/i386-slackware-linux/bin/ld: cannot open -lBedroom: No such file or directory
+collect2: ld returned 1 exit status
+configure: failed program was:
+#line 1825 "configure"
+#include "confdefs.h"
+/* Override any gcc2 internal prototype to avoid an error.  */
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char lots_of_hot_chicks();
+
+int main() {
+lots_of_hot_chicks()
+; return 0; }

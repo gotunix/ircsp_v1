@@ -1,0 +1,8 @@
+Services TODO list
+---------------------------
+
+Create some kind of match routine.
+Check for any bugs that may be lurking around.
+Create Channel Service Commands (such as Register, Drop)
+Create SET stuff for Memoservice, Channel Services
+Create MemoService
