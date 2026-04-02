@@ -1,0 +1,47 @@
+* auth         -- Authorize yourself with KW
+* gline        -- Ban a user@host from every server on the network
+* mode         -- Allows opers to control channel modes
+* op           -- Allows opers to op them selfs/others in a channel
+* deop         -- Allows opers to deop themselfs/others in a channel
+* kick         -- Allows opers to kick users out of channels
+* clearmode    -- Allows opers to clear modes from channels
+* clearchan    -- Clear all users from a channel
+* clearops     -- Deop all opered users in a channel
+* clearbans    -- unban every ban on a channel
+* gchan        -- gline everyone in a channel
+* gnick        -- gline a nick.
+* join         -- Allows opers to make service bots join channels
+* part         -- Allows opers to make service bots leave channels
+* help         -- Display help
+* showcommands -- Display help
+* uptime       -- Displays how long services have been up
+* listadmin    -- List services admins
+* listusers    -- List all the users on the network 
+* verify       -- Check if user is an admin (authed or not)
+* operlist     -- List of opers on network
+* map          -- Network map
+* invite       -- Invite your self to a channel
+* whois        -- Whois a user get their info
+* access       -- Checks someones access on different service bots
+* mkpasswd     -- Encrypt a password
+* count        -- How many users, opers, admins, servers, etc
+* opermsg      -- Change the on oper message
+* njupe        -- Creates a fake nick.
+* remnjupe     -- Remove a juped nickname.
+* jupe         -- Creates a fake server and linkes it to services.*
+* remjupe      -- Remove a juped server
+* collide      -- Nick collide
+* save         -- Force a save
+* rehash       -- Rehash database's
+* suspend      -- Suspend a admin/oper
+* remsuspend   -- Remove suspended admin/oper
+* adduser      -- Add a new user
+* moduser      -- Modify a user
+* remuser      -- Remove a user
+* say          -- Make OS talk
+* action       -- Make OS /me something
+* raw          -- Raw server (DANGEROUS) GOD users only
+
+
+For command syntax, and furthur information type
+/msg uworld help [command]

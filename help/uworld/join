@@ -1,0 +1,3 @@
+Command:     Join
+Syntax:      JOIN [servicebot] [#channel]
+Description: Make a service bot join a channel.

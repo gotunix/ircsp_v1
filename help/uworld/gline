@@ -1,0 +1,7 @@
+Command:     Gline
+Syntax:      GLINE [user@host] [timeinseconds] [reason]
+Description: Gline (Ban) a user from every server on our 
+             network.
+Note:        Users under Level 1000 can only gline for 
+             3600 seconds (1 hour).
+

@@ -1,0 +1,4 @@
+Command:     Uptime
+Syntax:      UPTIME
+Description: Displays how long services have been running.
+

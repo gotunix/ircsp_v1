@@ -1,0 +1,4 @@
+Command:     Mode
+Syntax:      MODE [#channel] [mode(s)]
+Description: Allows irc operators to change channel modes with out
+             having to be oped or even in the channel.

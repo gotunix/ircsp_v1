@@ -1,0 +1,10 @@
+* register      --   Register your nickname with NS
+* drop          --   Unregister your nickname with NS
+* auth          --   Authorize yourself to NS
+* help          --   Display this file.
+ 
+ 
+For command syntax, and furthur information type
+/msg ns help [command]
+ 
+

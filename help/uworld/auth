@@ -1,0 +1,8 @@
+Command:     Auth
+Syntax:      AUTH [nickname] [password]
+Description: Authorize your self with kworld.
+             Note: operators do not have to authorize
+                   themselfs as soon as they oper up
+                   they are givin level 1 (oper) access.
+                   The only people that have to auth are
+                   level 2 and up.

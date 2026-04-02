@@ -1,0 +1,4 @@
+Command:     drop
+Syntax:      DROP [Nickname]
+Description: Un-Register your nickname with our nickname services.
+Note:        You must be authorized with nickserv to drop your nickname.
